@@ -4,16 +4,6 @@ body {
     background-color: #fff !important;
 }
 
-header {
-    width: 100%;
-    background-color: #f6f6f6;
-    height: auto;
-    /* GI�?P HEADER C�? �?�?NH khi Scroll chuột
-    position: fixed;
-    top: 0;
-    z-index: 1;*/
-}
-
 .logoname, .logoname:hover  {
     padding-top: 5px;
     font-size: 24px;
