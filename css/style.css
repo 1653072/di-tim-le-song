@@ -1,16 +1,4 @@
 /* ------------------------------------------------------------ */
-/* Font */
-@font-face {
-    font-family: 'Haiku Regular'; 
-    src: url("../font/Haiku\'s\ Script\ version\ 09\ Regular.ttf"); 
-}
-
-@font-face {
-    font-family: 'Haiku Bold'; 
-    src: url("../font/Haiku\'s\ Script\ version\ 09\ Regular.ttf"); 
-}
-
-/* ------------------------------------------------------------ */
 /* Header */
 body {
     background-color: #fff !important;
@@ -27,11 +15,8 @@ header {
 }
 
 .logoname, .logoname:hover  {
-    font-family: 'Haiku Bold';
-    font-size: 36px;
-    margin-top: 10px;
-    margin-left: -10px;
-    margin-bottom: -10px;
+    padding-top: 5px;
+    font-size: 24px;
     color: #248241;
     float: right;
     text-decoration: none;
@@ -50,7 +35,7 @@ header {
     margin-left: 10px;
     margin-top: 10px;
     display: inline-block;
-    height: 60px;
+    height: fit-content;
     position: fixed;
     z-index: 1000;
 }
